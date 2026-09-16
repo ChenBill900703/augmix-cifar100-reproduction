@@ -1,0 +1,80 @@
+{
+  "audited": 1789482254.4202302,
+  "runs": [
+    {
+      "run": "baseline_seed0",
+      "epochs": 100,
+      "eval_rows": 152,
+      "checkpoint_hashes": {
+        "best": "408738e678c00d819f3b956c28e7a7eedbfad23d7fcb2ef624f80fef5b1ea5b1",
+        "last": "d9f20c7fcad392cf1e0da5544cecf965e5c9d5e934cc81c79135248e0233cfb6"
+      },
+      "best_epoch": 95,
+      "all_clean_match": true
+    },
+    {
+      "run": "augmix_seed0",
+      "epochs": 100,
+      "eval_rows": 152,
+      "checkpoint_hashes": {
+        "best": "1b883922946311424eec5336b7e730f1d1abbfc20269fbfa3297007a9faaf159",
+        "last": "d92443f75ca99dc63d9429a2153bcd3e26f96301d4c63ec95f7548b94b40c61e"
+      },
+      "best_epoch": 97,
+      "all_clean_match": true
+    },
+    {
+      "run": "baseline_seed1",
+      "epochs": 100,
+      "eval_rows": 152,
+      "checkpoint_hashes": {
+        "best": "bd8d03d7af96917e1fc694e22182f0d13a172750b4767269869f33c5fe642fa4",
+        "last": "2d2155079dd76346b09f15e61d17c53a57c39e237eba335bcf8b278f3f4e0e35"
+      },
+      "best_epoch": 98,
+      "all_clean_match": true
+    },
+    {
+      "run": "augmix_seed1",
+      "epochs": 100,
+      "eval_rows": 152,
+      "checkpoint_hashes": {
+        "best": "a9a95bdb002f522996dc6610f297e0f2bcb2a88ca678acf1c63df281e85f1ac0",
+        "last": "da1b49b7cd40c19de2582d772152d1703f83a16f37376dea5fdf710582bb6c22"
+      },
+      "best_epoch": 99,
+      "all_clean_match": true
+    },
+    {
+      "run": "baseline_seed2",
+      "epochs": 100,
+      "eval_rows": 152,
+      "checkpoint_hashes": {
+        "best": "25aad9f6fcd4d08b396d79fa04c61ad5db32293de47373720f9c7384c2991abf",
+        "last": "9cd660e5353ee743250d1307c4ca6710c5f18053c0cf8568d3f4d58d0e759bc6"
+      },
+      "best_epoch": 96,
+      "all_clean_match": true
+    },
+    {
+      "run": "augmix_seed2",
+      "epochs": 100,
+      "eval_rows": 152,
+      "checkpoint_hashes": {
+        "best": "b15e630898f92eb3e7aae594e0be6e90a622e691cf2c2fe0a0f90e646933d937",
+        "last": "bd58a83bf95c88132a3a598c0ad5b75510057d69e5f4933a8748cdcc75370bfb"
+      },
+      "best_epoch": 100,
+      "all_clean_match": true
+    }
+  ],
+  "training_source_hashes_unchanged": true,
+  "epochs": 600,
+  "evaluation_rows": 912,
+  "corruption_rows": 900,
+  "aligned_clean_verified": true,
+  "recorded_epoch_hours": 8.999330025222218,
+  "aligned_evaluation_hours": 0.6111530436387854,
+  "wall_hours_to_aligned_evaluation": 17.876936091714434,
+  "all_75_mean_cells_improve": true
+}

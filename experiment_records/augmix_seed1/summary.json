@@ -1,0 +1,26 @@
+{
+  "completed_epochs": 100,
+  "complete": true,
+  "last": {
+    "epoch": 100,
+    "lr": 2.5671734993602868e-05,
+    "lr_end": 1.0000000000000002e-06,
+    "train_loss": 0.37530550743103025,
+    "ce": 0.13107771850585936,
+    "jsd": 0.020352315847873687,
+    "clean_loss": 0.8329933166503907,
+    "clean_top1": 23.540000000000006,
+    "clean_top5": 5.5899999999999945,
+    "train_seconds": 66.54353620001348,
+    "val_seconds": 2.322778499976266,
+    "allocated_GiB": 2.1832423210144043,
+    "reserved_GiB": 2.845703125,
+    "amp_scale": 1.0,
+    "skipped_updates": 0,
+    "forward_dtype": "torch.float32",
+    "order_sha256": "ca9cd0e3eeb187d6c936b8821e594009898fb85afde0035dab40c5ad28e6bc2a",
+    "best_top1": 23.39,
+    "is_best": false,
+    "epoch_seconds": 69.18861790001392
+  }
+}

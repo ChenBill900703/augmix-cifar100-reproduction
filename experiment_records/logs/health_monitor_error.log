@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<PROJECT_ROOT>\monitoring\health_monitor.py", line 54, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "<PROJECT_ROOT>\monitoring\health_monitor.py", line 46, in main
+    temp=ROOT/'logs/health_latest.tmp'; temp.write_text(json.dumps(record,indent=2),encoding='utf-8'); temp.replace(ROOT/'logs/health_latest.json')
+                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<USER_HOME>\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1376, in replace
+    os.replace(self, target)
+PermissionError: [WinError 5] �s���Q�ڡC: '<PROJECT_ROOT>\\logs\\health_latest.tmp' -> '<PROJECT_ROOT>\\logs\\health_latest.json'

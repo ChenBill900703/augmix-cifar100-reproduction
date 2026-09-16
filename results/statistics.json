@@ -1,0 +1,182 @@
+{
+  "summary": [
+    {
+      "method": "baseline",
+      "checkpoint": "best",
+      "metric": "clean_top1",
+      "n": 3,
+      "mean": 24.433333333333334,
+      "sample_sd": 0.3957692930652068
+    },
+    {
+      "method": "baseline",
+      "checkpoint": "best",
+      "metric": "clean_top5",
+      "n": 3,
+      "mean": 6.6833333333333345,
+      "sample_sd": 0.17897858344878104
+    },
+    {
+      "method": "baseline",
+      "checkpoint": "best",
+      "metric": "corruption_top1",
+      "n": 3,
+      "mean": 53.918977777777776,
+      "sample_sd": 0.165768477546694
+    },
+    {
+      "method": "baseline",
+      "checkpoint": "best",
+      "metric": "corruption_top5",
+      "n": 3,
+      "mean": 30.763288888888884,
+      "sample_sd": 0.16890472440380622
+    },
+    {
+      "method": "augmix",
+      "checkpoint": "best",
+      "metric": "clean_top1",
+      "n": 3,
+      "mean": 23.253333333333334,
+      "sample_sd": 0.21126602503321307
+    },
+    {
+      "method": "augmix",
+      "checkpoint": "best",
+      "metric": "clean_top5",
+      "n": 3,
+      "mean": 5.543333333333333,
+      "sample_sd": 0.13051181300300932
+    },
+    {
+      "method": "augmix",
+      "checkpoint": "best",
+      "metric": "corruption_top1",
+      "n": 3,
+      "mean": 36.09942222222222,
+      "sample_sd": 0.1056353756683429
+    },
+    {
+      "method": "augmix",
+      "checkpoint": "best",
+      "metric": "corruption_top5",
+      "n": 3,
+      "mean": 13.70408888888889,
+      "sample_sd": 0.2000226801955037
+    },
+    {
+      "method": "baseline",
+      "checkpoint": "last",
+      "metric": "clean_top1",
+      "n": 3,
+      "mean": 24.706666666666667,
+      "sample_sd": 0.2638812864401963
+    },
+    {
+      "method": "baseline",
+      "checkpoint": "last",
+      "metric": "clean_top5",
+      "n": 3,
+      "mean": 6.753333333333333,
+      "sample_sd": 0.22030282189144196
+    },
+    {
+      "method": "baseline",
+      "checkpoint": "last",
+      "metric": "corruption_top1",
+      "n": 3,
+      "mean": 53.65506666666666,
+      "sample_sd": 0.462243476007084
+    },
+    {
+      "method": "baseline",
+      "checkpoint": "last",
+      "metric": "corruption_top5",
+      "n": 3,
+      "mean": 30.470399999999998,
+      "sample_sd": 0.5197236359622023
+    },
+    {
+      "method": "augmix",
+      "checkpoint": "last",
+      "metric": "clean_top1",
+      "n": 3,
+      "mean": 23.330000000000002,
+      "sample_sd": 0.22649503305812568
+    },
+    {
+      "method": "augmix",
+      "checkpoint": "last",
+      "metric": "clean_top5",
+      "n": 3,
+      "mean": 5.529999999999998,
+      "sample_sd": 0.09539392014169044
+    },
+    {
+      "method": "augmix",
+      "checkpoint": "last",
+      "metric": "corruption_top1",
+      "n": 3,
+      "mean": 35.921644444444446,
+      "sample_sd": 0.09770561983912412
+    },
+    {
+      "method": "augmix",
+      "checkpoint": "last",
+      "metric": "corruption_top5",
+      "n": 3,
+      "mean": 13.519466666666666,
+      "sample_sd": 0.06006677765435369
+    }
+  ],
+  "paired_improvement_pp": [
+    {
+      "seed": 0,
+      "checkpoint": "best",
+      "clean_top1": 1.2100000000000009,
+      "clean_top5": 1.200000000000001,
+      "corruption_top1": 17.78453333333333,
+      "corruption_top5": 17.055999999999997
+    },
+    {
+      "seed": 1,
+      "checkpoint": "best",
+      "clean_top1": 1.5,
+      "clean_top5": 1.1100000000000003,
+      "corruption_top1": 17.586666666666673,
+      "corruption_top5": 16.696399999999997
+    },
+    {
+      "seed": 2,
+      "checkpoint": "best",
+      "clean_top1": 0.8299999999999983,
+      "clean_top5": 1.1100000000000003,
+      "corruption_top1": 18.08746666666667,
+      "corruption_top5": 17.425199999999997
+    },
+    {
+      "seed": 0,
+      "checkpoint": "last",
+      "clean_top1": 1.490000000000002,
+      "clean_top5": 1.4000000000000004,
+      "corruption_top1": 17.646799999999992,
+      "corruption_top5": 16.918533333333322
+    },
+    {
+      "seed": 1,
+      "checkpoint": "last",
+      "clean_top1": 1.4699999999999918,
+      "clean_top5": 1.1500000000000075,
+      "corruption_top1": 17.39479999999999,
+      "corruption_top5": 16.40120000000001
+    },
+    {
+      "seed": 2,
+      "checkpoint": "last",
+      "clean_top1": 1.1699999999999946,
+      "clean_top5": 1.1199999999999983,
+      "corruption_top1": 18.15866666666666,
+      "corruption_top5": 17.533066666666663
+    }
+  ]
+}

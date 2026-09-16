@@ -1,0 +1,68 @@
+{
+  "config": {
+    "method": "baseline",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 128,
+    "eval_batch_size": 1000,
+    "workers": 4,
+    "amp": false
+  },
+  "method_spec": {
+    "model": "WRN-40-2",
+    "num_classes": 100,
+    "dropout": 0,
+    "optimizer": "SGD",
+    "lr": 0.1,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "nesterov": true,
+    "lr_min": 1e-06,
+    "scheduler": "per-batch cosine after optimizer",
+    "mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "mixture_width": 3,
+    "mixture_depth": [
+      1,
+      2,
+      3
+    ],
+    "severity": 3,
+    "dirichlet_alpha": 1,
+    "beta_alpha": 1,
+    "jsd_weight": 12,
+    "mixture_clamp": [
+      1e-07,
+      1
+    ],
+    "three_view_concat": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "deterministic_algorithms": false,
+    "resume_scope": "epoch-boundary"
+  },
+  "code_hashes": {
+    "core.py": "73797ed4f8662768ab10e486b8bc0b5d10a940773ccded5d11a03d0719a7bb2a",
+    "download_clean.py": "b1f4c71ad07d6b447bb9956c214f84aad0a04a7adb57dabb8fdd9a484358ff42",
+    "finish_downloads.py": "c6800913c5618fde54a4542ae2b218394d77c8b41bc8d8450c0739186c582a53",
+    "pipeline.py": "11914e378c18c8bad08cb2e669745b6761656d3c9ad3b0878b38a5da060771cb",
+    "preflight.py": "15094bfa0a1996e210da8cf8564de4e1e7187ad1e875a841f8d82ba4dfa1ec8c",
+    "prepare.py": "b958edee6eb2d58db8f69cf17fca4f77eca0cfa3c275247a1e0c95a464292041",
+    "report.py": "1650942477df8775e2e49e6808d6cbec5b459d515a52693b2b10fcbb9cceeefa",
+    "run.py": "0165a2653f5fdbae374f030240d0ae92badda3f158ee0911a8b62712caae97a0",
+    "test_core.py": "3bbf9fd3356fb79da800ee680b3ce8e5fe6adf65ef2b2e9f0a2d36d533b98d19",
+    "vendor\\augmix\\augmentations.py": "7e33e6e223fc2f7254a7e5be8be5cc314ed44b35d52c16da61ace3fca08d39c3",
+    "vendor\\augmix\\third_party\\WideResNet_pytorch\\wideresnet.py": "404b9280bccf665731581e101c75e1a509bb939de414ab6763f51aae60c975e4"
+  },
+  "selection": "minimum clean test top1 error; first tie wins",
+  "source_sha": "9b9824c7c19bf7e72df2d085d97b99b3bfb00ba4"
+}

@@ -1,0 +1,1 @@
+{"last_corruption_means": {"baseline": 53.65506666666666, "augmix": 35.921644444444446}, "improvement_pp": 17.733422222222213, "epoch_hours": 8.999330025222218, "evaluation_hours": 0.6111530436387854, "wall_hours": 17.876936091714434, "all_cells_improve": true}

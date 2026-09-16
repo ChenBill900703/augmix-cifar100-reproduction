@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<PROJECT_ROOT>\pipeline.py", line 115, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "<PROJECT_ROOT>\pipeline.py", line 90, in main
+    execute(['run.py','train','--config',str(cfg),'--run',str(ROOT/'runs'/f'{method}_seed{seed}')],f'{method}_seed{seed}')
+  File "<PROJECT_ROOT>\pipeline.py", line 31, in execute
+    stop_child(child); raise TimeoutError(f'{name}: no log progress for one hour; last completed epoch retained')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: baseline_seed1: no log progress for one hour; last completed epoch retained

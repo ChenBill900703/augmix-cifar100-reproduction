@@ -1,0 +1,8 @@
+{
+  "cudnn_benchmark": false,
+  "cudnn_deterministic": true,
+  "cudnn_tf32": false,
+  "matmul_tf32": false,
+  "threads": 4,
+  "amp": false
+}

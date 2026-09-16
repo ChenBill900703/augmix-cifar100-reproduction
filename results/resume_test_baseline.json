@@ -1,0 +1,17 @@
+{
+  "max_weight_difference": 0.0,
+  "orders_equal": true,
+  "losses_equal": true,
+  "config": {
+    "method": "baseline",
+    "seed": 0,
+    "epochs": 2,
+    "batch_size": 8,
+    "eval_batch_size": 32,
+    "workers": 2,
+    "amp": false,
+    "limit": 64,
+    "test_limit": 65
+  },
+  "scope": "same environment, epoch boundaries, smoke test only"
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "run": "augmix_seed0",
+    "checkpoint": "best",
+    "bytes": 27351431,
+    "sha256": "1b883922946311424eec5336b7e730f1d1abbfc20269fbfa3297007a9faaf159",
+    "published": false
+  },
+  {
+    "run": "augmix_seed0",
+    "checkpoint": "last",
+    "bytes": 27352967,
+    "sha256": "d92443f75ca99dc63d9429a2153bcd3e26f96301d4c63ec95f7548b94b40c61e",
+    "published": false
+  },
+  {
+    "run": "augmix_seed1",
+    "checkpoint": "best",
+    "bytes": 27352519,
+    "sha256": "a9a95bdb002f522996dc6610f297e0f2bcb2a88ca678acf1c63df281e85f1ac0",
+    "published": false
+  },
+  {
+    "run": "augmix_seed1",
+    "checkpoint": "last",
+    "bytes": 27353031,
+    "sha256": "da1b49b7cd40c19de2582d772152d1703f83a16f37376dea5fdf710582bb6c22",
+    "published": false
+  },
+  {
+    "run": "augmix_seed2",
+    "checkpoint": "best",
+    "bytes": 27352967,
+    "sha256": "b15e630898f92eb3e7aae594e0be6e90a622e691cf2c2fe0a0f90e646933d937",
+    "published": false
+  },
+  {
+    "run": "augmix_seed2",
+    "checkpoint": "last",
+    "bytes": 27352967,
+    "sha256": "bd58a83bf95c88132a3a598c0ad5b75510057d69e5f4933a8748cdcc75370bfb",
+    "published": false
+  },
+  {
+    "run": "baseline_seed0",
+    "checkpoint": "best",
+    "bytes": 27350023,
+    "sha256": "408738e678c00d819f3b956c28e7a7eedbfad23d7fcb2ef624f80fef5b1ea5b1",
+    "published": false
+  },
+  {
+    "run": "baseline_seed0",
+    "checkpoint": "last",
+    "bytes": 27352583,
+    "sha256": "d9f20c7fcad392cf1e0da5544cecf965e5c9d5e934cc81c79135248e0233cfb6",
+    "published": false
+  },
+  {
+    "run": "baseline_seed1",
+    "checkpoint": "best",
+    "bytes": 27352007,
+    "sha256": "bd8d03d7af96917e1fc694e22182f0d13a172750b4767269869f33c5fe642fa4",
+    "published": false
+  },
+  {
+    "run": "baseline_seed1",
+    "checkpoint": "last",
+    "bytes": 27352967,
+    "sha256": "2d2155079dd76346b09f15e61d17c53a57c39e237eba335bcf8b278f3f4e0e35",
+    "published": false
+  },
+  {
+    "run": "baseline_seed2",
+    "checkpoint": "best",
+    "bytes": 27350599,
+    "sha256": "25aad9f6fcd4d08b396d79fa04c61ad5db32293de47373720f9c7384c2991abf",
+    "published": false
+  },
+  {
+    "run": "baseline_seed2",
+    "checkpoint": "last",
+    "bytes": 27352647,
+    "sha256": "9cd660e5353ee743250d1307c4ca6710c5f18053c0cf8568d3f4d58d0e759bc6",
+    "published": false
+  }
+]

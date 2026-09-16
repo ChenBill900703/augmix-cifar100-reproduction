@@ -1,0 +1,2 @@
+{"event": "watchdog_stall_recovery", "time": 1789457866.40323, "last_verified_epoch": 68, "csv_rows": 68, "scheduler_step": 26588, "weights_finite": true, "formal_code_unchanged": true, "sleep_evidence_found": false, "cause": "undetermined; original child already terminated by controller", "action": "resume same checkpoint/config; no experiment condition change"}
+{"event": "resume", "epoch": 68, "time": 1789458052.625073}

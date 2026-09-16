@@ -1,0 +1,2 @@
+# Preserve original source/CSV bytes so recorded SHA-256 remains verifiable.
+* -text

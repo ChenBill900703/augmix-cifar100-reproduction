@@ -1,0 +1,12 @@
+{
+  "stable_epoch_seconds": {
+    "baseline": 40.56578982499923,
+    "augmix": 69.29985970000416
+  },
+  "training_hours_six": 9.155470793750283,
+  "evaluation_hours_estimate": 0.9134976560104405,
+  "evaluation_basis": "12 checkpoints × 76 sets of 10000 × slowest measured validation × 1.5 IO margin",
+  "target_training_hours": 120,
+  "total_elapsed_hours": 11.215978726744652,
+  "within_168_estimate": true
+}

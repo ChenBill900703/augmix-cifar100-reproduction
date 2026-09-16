@@ -1,0 +1,64 @@
+.......F                                                                 [100%]
+================================== FAILURES ===================================
+_________________________________ test_resume _________________________________
+
+tmp_path = WindowsPath('C:/Users/ChenBill/AppData/Local/Temp/pytest-of-ChenBill/pytest-204/test_resume0')
+
+    def test_resume(tmp_path):
+        c=json.loads((core.ROOT/'configs/smoke.json').read_text())
+>       a,ra=core.train(c,tmp_path/'continuous')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_core.py:67: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+core.py:176: in train
+    save_json(run/'summary.json',dict(completed_epochs=epoch+1,complete=epoch+1==c['epochs'],last=row))
+core.py:35: in save_json
+    tmp.write_text(json.dumps(obj,indent=2,ensure_ascii=False,allow_nan=False),encoding='utf-8')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER_HOME>\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\__init__.py:238: in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+<USER_HOME>\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py:202: in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+<USER_HOME>\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py:432: in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+<USER_HOME>\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py:406: in _iterencode_dict
+    yield from chunks
+<USER_HOME>\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py:406: in _iterencode_dict
+    yield from chunks
+<USER_HOME>\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py:439: in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <json.encoder.JSONEncoder object at 0x000001B94DC2FAD0>, o = np.True_
+
+    def default(self, o):
+        """Implement this method in a subclass such that it returns
+        a serializable object for ``o``, or calls the base implementation
+        (to raise a ``TypeError``).
+    
+        For example, to support arbitrary iterators, you could
+        implement default like this::
+    
+            def default(self, o):
+                try:
+                    iterable = iter(o)
+                except TypeError:
+                    pass
+                else:
+                    return list(iterable)
+                # Let the base class default method raise the TypeError
+                return super().default(o)
+    
+        """
+>       raise TypeError(f'Object of type {o.__class__.__name__} '
+                        f'is not JSON serializable')
+E       TypeError: Object of type bool is not JSON serializable
+
+<USER_HOME>\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\json\encoder.py:180: TypeError
+=========================== short test summary info ===========================
+FAILED test_core.py::test_resume - TypeError: Object of type bool is not JSON...
+1 failed, 7 passed in 14.34s

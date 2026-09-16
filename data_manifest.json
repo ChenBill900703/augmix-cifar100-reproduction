@@ -1,0 +1,163 @@
+{
+  "cifar100_archive_md5": "eb9058c3a382ffc7106e4002c42a8d85",
+  "cifar100c_md5": "11f0ed0f1191edbf9fa23466ae6021d3",
+  "labels_match_all_five_blocks": true,
+  "corruptions": {
+    "gaussian_noise": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "776391036473e944144809983ce9cb0c7831593e84a1be7cf29ccc72f194a120"
+    },
+    "shot_noise": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "4d661214412045f79fdbc8a5095506e8682a883bcb61693dc17b48a9f7d7a51b"
+    },
+    "impulse_noise": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "7dcf455178224fb63c956d2f2bd50c1da71c57671ac7f7238610752f91a23e84"
+    },
+    "defocus_blur": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "134ab1cb3765e4551b7ee121f099c8dafb88c096f45deee5bee98e96a16c0d61"
+    },
+    "glass_blur": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "4c612859c74e1cf1751763eddaaf55e742650f4f9c67b8321faf47e524707d5b"
+    },
+    "motion_blur": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "cb2d7dc6dcbabf3f0ac198397186846ec57985a6c4f4dab10999f17835555233"
+    },
+    "zoom_blur": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "f0c746dec1c23438fa4e22a90e18eed7b6b96b71fd35776cad709b163bef0a56"
+    },
+    "snow": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "359b96dc23af57c3210fefbd37a007576e8190ac492881920d475517e0ee5647"
+    },
+    "frost": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "9ca999b14435f20b60412cdf9c4d054bad563d656d80cf71795f0a9a3d2271d2"
+    },
+    "fog": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "0a8c65f809028fd7867271988932477e3efb7d781a367927f28674076389bc20"
+    },
+    "brightness": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "5a81b1cb9365e6ce853fca57740a4156c6b724e97d95b0673df3820ee2056ab9"
+    },
+    "contrast": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "a838439f52a70006cf20825ef78c59b25574ff77689a97f69056df50e272dddb"
+    },
+    "elastic_transform": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "690437cd574582378fbd57b25923b87d39f7069166e7a319beec6e5b612e2aab"
+    },
+    "pixelate": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "4fa41f887ffeccc2ab0c3c235345c8dfd8e19d0fcb3cd104d5a274d5ba4d337d"
+    },
+    "jpeg_compression": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "dtype": "uint8",
+      "sha256": "97d3e7fa79f231b4423901965a8f7a992e22831e99735e7cd3bb8bdfbd3ab892"
+    }
+  },
+  "excluded_extra_files": [
+    "gaussian_blur.npy",
+    "saturate.npy",
+    "spatter.npy",
+    "speckle_noise.npy"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "method": "augmix",
+  "seed": 0,
+  "epochs": 100,
+  "batch_size": 128,
+  "eval_batch_size": 1000,
+  "workers": 4,
+  "amp": false
+}

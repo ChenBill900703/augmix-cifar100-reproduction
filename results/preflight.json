@@ -1,0 +1,86 @@
+[
+  {
+    "method": "baseline",
+    "amp": false,
+    "training": {
+      "allocated_GiB": 0.7275304794311523,
+      "reserved_GiB": 0.783203125
+    },
+    "validation": {
+      "allocated_GiB": 0.9490151405334473,
+      "reserved_GiB": 1.21875
+    },
+    "limit_GiB": 7.199560546875,
+    "pass_limit": true,
+    "forward_dtype": "torch.float32",
+    "scaler_enabled": false,
+    "last_loss": [
+      4.644805431365967,
+      4.644805431365967,
+      0.0
+    ]
+  },
+  {
+    "method": "baseline",
+    "amp": true,
+    "training": {
+      "allocated_GiB": 0.3824930191040039,
+      "reserved_GiB": 0.400390625
+    },
+    "validation": {
+      "allocated_GiB": 0.9490160942077637,
+      "reserved_GiB": 1.216796875
+    },
+    "limit_GiB": 7.199560546875,
+    "pass_limit": true,
+    "forward_dtype": "torch.float16",
+    "scaler_enabled": true,
+    "last_loss": [
+      4.641632080078125,
+      4.641632080078125,
+      0.0
+    ]
+  },
+  {
+    "method": "augmix",
+    "amp": false,
+    "training": {
+      "allocated_GiB": 2.1832423210144043,
+      "reserved_GiB": 2.328125
+    },
+    "validation": {
+      "allocated_GiB": 0.9490151405334473,
+      "reserved_GiB": 1.220703125
+    },
+    "limit_GiB": 7.199560546875,
+    "pass_limit": true,
+    "forward_dtype": "torch.float32",
+    "scaler_enabled": false,
+    "last_loss": [
+      4.617509841918945,
+      4.610634803771973,
+      0.000572922290302813
+    ]
+  },
+  {
+    "method": "augmix",
+    "amp": true,
+    "training": {
+      "allocated_GiB": 1.0663785934448242,
+      "reserved_GiB": 1.169921875
+    },
+    "validation": {
+      "allocated_GiB": 0.9490160942077637,
+      "reserved_GiB": 1.216796875
+    },
+    "limit_GiB": 7.199560546875,
+    "pass_limit": true,
+    "forward_dtype": "torch.float16",
+    "scaler_enabled": true,
+    "last_loss": [
+      4.620156288146973,
+      4.6130523681640625,
+      0.0005919876275584102
+    ]
+  }
+]

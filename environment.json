@@ -1,0 +1,19 @@
+{
+  "time": 1789477283.0552554,
+  "os": "Windows-11-10.0.26100-SP0",
+  "cpu": "Intel64 Family 6 Model 167 Stepping 1, GenuineIntel",
+  "logical_cpus": 16,
+  "physical_cpus": 8,
+  "ram_bytes": 34146983936,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "numpy": "2.5.2",
+  "cuda": "12.8",
+  "cudnn": 91900,
+  "gpu": "NVIDIA GeForce RTX 3070 Ti",
+  "vram": 8589410304,
+  "cpu_name": "Intel Core i7-11700K",
+  "driver": "591.86",
+  "privacy_note": "Unrelated desktop process list omitted; hardware/software version fields preserved."
+}
